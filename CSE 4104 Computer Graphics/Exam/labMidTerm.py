@@ -9,7 +9,7 @@ def bresAlgo(x0, y0, x1, y1):  # Breseham Algorithm for line drawing:
     dx = x1-x0
     dy = y1-y0
     # Calculate decision parameter:
-    p = 2*dy-dx
+    p = 2*dy-dx 
     x = x0
     y = y0
     glVertex2f(x, y)
